@@ -64,8 +64,6 @@ void find(char path[], char expr[])
 
 int main(int argc, char *argv[])
 {
-    int i;
-
     if (argc != 3)
     {
         printf("find: find [path] [expression]\n");
